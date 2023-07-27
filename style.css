@@ -1,0 +1,75 @@
+.oculto {
+    display: none;
+}
+
+
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: initial;
+    font-size: large;
+    color: black;
+}
+
+.botones {
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 7px;
+    border-color: black;
+
+}
+
+.img {
+    max-width: 150px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.boton {
+    margin-top: 15px;
+}
+
+ .estiloTarjetas {
+  display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 20px;
+    border: 1px solid;
+    margin-top: 20px;
+    background-color: #0e7171;
+    align-items: center;
+    border-radius: 10px
+}
+
+
+#productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+
+#carrito {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: aliceblue;
+}
+.botones{
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+    font-size: medium;
+
+}
+body{
+    background-image: url("./img/sunset.jpg");
+   
+}
